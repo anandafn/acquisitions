@@ -1,0 +1,57 @@
+{"level":"info","message":"Hello, from acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Feb/2026:13:51:36 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello, from acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Feb/2026:14:05:52 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Feb/2026:14:06:02 +0000] \"GET /api HTTP/1.1\" 200 41 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [19/Feb/2026:14:06:14 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Feb/2026:03:39:47 +0000] \"GET /api/auth/sign-up HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Feb/2026:03:40:00 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: 123@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Feb/2026:03:40:59 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 98 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"error","message":"Signup error password is not defined","service":"acquisitions-api","stack":"ReferenceError: password is not defined\n    at signup (file:///C:/Users/engin/Documents/acquisitions/src/controllers/auth.controller.js:21:50)\n    at Layer.handleRequest (C:\\Users\\engin\\Documents\\acquisitions\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\engin\\Documents\\acquisitions\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\engin\\Documents\\acquisitions\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\engin\\Documents\\acquisitions\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\engin\\Documents\\acquisitions\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\engin\\Documents\\acquisitions\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\engin\\Documents\\acquisitions\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\engin\\Documents\\acquisitions\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\engin\\Documents\\acquisitions\\node_modules\\router\\index.js:186:3)"}
+{"level":"info","message":"::1 - - [20/Feb/2026:03:59:30 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1259 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"error","message":"Error creating user: TypeError: Cannot convert undefined or null to object","service":"acquisitions-api"}
+{"level":"error","message":"Signup error e is not defined","service":"acquisitions-api","stack":"ReferenceError: e is not defined\n    at createUser (file:///C:/Users/engin/Documents/acquisitions/src/services/auth.service.js:44:5)\n    at async signup (file:///C:/Users/engin/Documents/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [20/Feb/2026:04:00:34 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 394 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"error","message":"Error creating user: TypeError: Cannot convert undefined or null to object","service":"acquisitions-api"}
+{"level":"error","message":"Signup error Cannot convert undefined or null to object","service":"acquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///C:/Users/engin/Documents/acquisitions/node_modules/drizzle-orm/utils.js:55:17)\n    at file:///C:/Users/engin/Documents/acquisitions/node_modules/drizzle-orm/utils.js:65:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///C:/Users/engin/Documents/acquisitions/node_modules/drizzle-orm/utils.js:55:33)\n    at QueryPromise.returning (file:///C:/Users/engin/Documents/acquisitions/node_modules/drizzle-orm/pg-core/query-builders/insert.js:75:29)\n    at createUser (file:///C:/Users/engin/Documents/acquisitions/src/services/auth.service.js:33:8)\n    at async signup (file:///C:/Users/engin/Documents/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [20/Feb/2026:04:01:16 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1042 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"error","message":"Error creating user: TypeError: Cannot convert undefined or null to object","service":"acquisitions-api"}
+{"level":"error","message":"Signup error Cannot convert undefined or null to object","service":"acquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///C:/Users/engin/Documents/acquisitions/node_modules/drizzle-orm/utils.js:55:17)\n    at file:///C:/Users/engin/Documents/acquisitions/node_modules/drizzle-orm/utils.js:65:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///C:/Users/engin/Documents/acquisitions/node_modules/drizzle-orm/utils.js:55:33)\n    at QueryPromise.returning (file:///C:/Users/engin/Documents/acquisitions/node_modules/drizzle-orm/pg-core/query-builders/insert.js:75:29)\n    at createUser (file:///C:/Users/engin/Documents/acquisitions/src/services/auth.service.js:33:8)\n    at async signup (file:///C:/Users/engin/Documents/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [20/Feb/2026:04:02:20 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1042 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User admin@gmail.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: admin@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Feb/2026:04:07:03 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 101 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User namira@gmail.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: namira@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Feb/2026:04:07:55 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 102 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Feb/2026:04:57:51 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Feb/2026:04:59:01 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Feb/2026:04:59:01 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Feb/2026:04:59:02 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Feb/2026:04:59:02 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Feb/2026:04:59:02 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [20/Feb/2026:04:59:02 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [20/Feb/2026:04:59:03 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [20/Feb/2026:04:59:03 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [20/Feb/2026:04:59:03 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [20/Feb/2026:04:59:03 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [20/Feb/2026:04:59:03 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [20/Feb/2026:04:59:03 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [20/Feb/2026:04:59:04 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [20/Feb/2026:04:59:04 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [20/Feb/2026:04:59:04 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [20/Feb/2026:04:59:04 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [20/Feb/2026:04:59:05 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
