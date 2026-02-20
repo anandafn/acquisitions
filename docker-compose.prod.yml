@@ -1,0 +1,36 @@
+version: '3.9'
+
+services:
+  # Application service for production
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    container_name: acquisitions-app-prod
+    env_file:
+      - .env.production
+    ports:
+      - '${PORT:-3000}:3000'
+    networks:
+      - acquisitions-network
+    restart: always
+    # Resource limits for production
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 512M
+        reservations:
+          cpus: '0.5'
+          memory: 256M
+    # Logging configuration
+    logging:
+      driver: 'json-file'
+      options:
+        max-size: '10m'
+        max-file: '3'
+
+networks:
+  acquisitions-network:
+    driver: bridge

@@ -1,3 +1,6 @@
 node_modules
 .env
 .env.*
+
+# Neon Local metadata
+.neon_local/.neon_local/
